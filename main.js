@@ -2,8 +2,8 @@ var canvas = new fabric.Canvas('myCanvas');
  var x= document.getElementById("myAudio");
 
 function new_image(){
-fabric.Image.fromURL('BirthdayImage.jpg',function()	{
-    block_Image_object=Img;
+fabric.Image.fromURL('BirthdayImage.jpg',function(img)	{
+    block_Image_object=img;
     
     block_Image_object.scaleToWidth(700);
     block_Image_object.scaleToHeight(510);
